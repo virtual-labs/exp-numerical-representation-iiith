@@ -11,12 +11,12 @@ etc.
 It can be seen easily by the multiplication principle that for n bits this number is 2n. One of these number corresponds to the 0 in decimal, so the biggest number possible is 2n - 1. Therefore, given a number, say N, it can fit in n bits if N is less than 2^n. Hence, the number of bits required to fit a number N is equal to ceil(log2(N)). Now finding ceil(log2(N)) can be done easily by repeatedly dividing the given number, N, by two until you get 0 as the quotient. For example, let N=96
 
 Then,
-Step 1 :96/2 gives quotient as 48
-Step 2 :48/2 gives quotient as 24
-Step 3 :24/2 gives quotient as 12
-Step 4 :12/2 gives quotient as 6
-Step 5 :6/2 gives quotient as 3
-Step 6 :3/2 gives quotient as 1
+Step 1 :96/2 gives quotient as 48  
+Step 2 :48/2 gives quotient as 24  
+Step 3 :24/2 gives quotient as 12  
+Step 4 :12/2 gives quotient as 6  
+Step 5 :6/2 gives quotient as 3  
+Step 6 :3/2 gives quotient as 1  
 
 **Problem 2**
 
