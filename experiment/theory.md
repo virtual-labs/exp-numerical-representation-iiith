@@ -1,16 +1,16 @@
 **Problem 1**
 
 Let us try to find how many binary numbers can be generated when you are given a fixed number of bits,say n.
-n=1, gives
-0,1
-n=2, gives
-00,01,10,11 n=3, gives
-000,001,010,011,100,101,110,111
-etc.
+n=1, gives  
+0,1  
+n=2, gives  
+00,01,10,11 n=3, gives  
+000,001,010,011,100,101,110,111  
+etc.  
 
-It can be seen easily by the multiplication principle that for n bits this number is 2n. One of these number corresponds to the 0 in decimal, so the biggest number possible is 2n - 1. Therefore, given a number, say N, it can fit in n bits if N is less than 2^n. Hence, the number of bits required to fit a number N is equal to ceil(log2(N)). Now finding ceil(log2(N)) can be done easily by repeatedly dividing the given number, N, by two until you get 0 as the quotient. For example, let N=96
+It can be seen easily by the multiplication principle that for n bits this number is 2n. One of these number corresponds to the 0 in decimal, so the biggest number possible is 2n - 1. Therefore, given a number, say N, it can fit in n bits if N is less than 2^n. Hence, the number of bits required to fit a number N is equal to ceil(log2(N)). Now finding ceil(log2(N)) can be done easily by repeatedly dividing the given number, N, by two until you get 0 as the quotient. For example, let N=96  
 
-Then,
+Then,  
 Step 1 :96/2 gives quotient as 48  
 Step 2 :48/2 gives quotient as 24  
 Step 3 :24/2 gives quotient as 12  

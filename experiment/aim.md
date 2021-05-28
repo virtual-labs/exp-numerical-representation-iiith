@@ -4,25 +4,22 @@ How are number represented in C? In this lab we help you understand how numbers 
 
 Given a positive integer (<= 1000000), find the minimum number of bits required to represent it as a binary number.
 
-**Input Specification**
+**Input Specification**  
 
 Input contains a single positive integer(< 106).
 
 
-**Output Specification**
+**Output Specification**  
 
-Output the minimum number of bits required for the representing in binary.
+Output the minimum number of bits required for the representing in binary.  
 
 
 **Sample Input and Output**
 
-Input: 4
-
-Output:3
-
-Input: 16
-
-Output: 5
+Input: 4  
+Output:3  
+Input: 16  
+Output: 5  
 
 
 
@@ -43,13 +40,10 @@ Output must be the index of the word in the dictionary.
 
 **Sample Input and Output**
 
-Input: 3 A B C AC
-
-Output: 4
-
-Input: 3 A B C BC
-
-Output: 6
+Input: 3 A B C AC  
+Output: 4  
+Input: 3 A B C BC  
+Output: 6  
 
 
 
