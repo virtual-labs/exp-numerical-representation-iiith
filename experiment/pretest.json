@@ -42,52 +42,6 @@
             "c":"do-while",
             "d":"No looping peocess check condition at the end"
           },
-"correctAnswer":"c"},
-
-{"question":"6. A continue statement causes execution to skip to:",
-"answers":{
-            "a":"the end of the program",
-            "b":"the first statement after the loop",
-            "c":"the statement following the continue statement",
-            "d":"the next iteration of the loop"
-          },
-"correctAnswer":"d"},
-
-{"question":"7. The statement i++; is equivalent to:",
-"answers":{
-            "a":"i = i + i;",
-            "b":"i = i + 1;",
-            "c":"i = i - 1;",
-            "d":"i - - ;"
-          },
-"correctAnswer":"b"},
-
-{"question":"8. Another word for 'looping' is:",
-"answers":{
-            "a":"recapitulation ",
-            "b":"tintinabulation ",
-            "c":"iteration",
-            "d":"reiteration"
-          },
-"correctAnswer":"c"},
-
-{"question":"9. Which looping process is best used when the number of iterations is known?",
-"answers":{
-            "a":"for",
-            "b":"while",
-            "c":"do-while",
-            "d":"all of the above"
-          },
-"correctAnswer":"a"},
-
-{"question":"10.  Which of the following is not an infinite loop.",
-"answers":{
-            "a":"int i = 1 ; while ( 1 ) { i++ ; }",
-            "b":"for( int i =1; i < 10 ; i--) printf('Hello World');",
-            "c":"for(int i =1; i<100; i++) printf('Hello World');",
-            "d":"int i = 0; do{ i-- printf('%d ',i); }while(i>0);"
-          },
 "correctAnswer":"c"}
-
 
 ]
