@@ -33,21 +33,21 @@ h4,h5,h6,pre,code,p {
 
 header#site_head {
 
-	/*background: url(images/bck_head.jpg);*/
+	background: url(images/bck_head.jpg);
 
 	/* create a shadow of dark pinkish red */
 
-	/*x-shadow: inset 0px -2px 3px #480508;
+	x-shadow: inset 0px -2px 3px #480508;
 	-khtml-box-shadow: inset 0px -2px 3px #480508;
 	-webkit-box-shadow: inset 0px -2px 3px #480508;
-	box-shadow: inset 0px -2px 3px #480508;*/
+	box-shadow: inset 0px -2px 3px #480508;
 
 	/* solid border of greyish white */
 
-	/*border-bottom: 1px solid #fffffb;
+	border-bottom: 1px solid #fffffb;
 	height: 40px;
 	width: 100%;
-	display: block;*/
+	display: block;
 }
 /* header of 960px width */
 
