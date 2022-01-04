@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="eng"><head><!--Google Tag Manager--><!--End Google Tag Manager--><!--Google Tag Manager--><!--End Google Tag Manager-->
+	<meta content="text/html;charset=utf-8" http-eqiv="content-Type">
+	<title> Virtual Labs | Experiments </title>
+
+	<link href="default.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="../css/common.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
+	<script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<link href="../css/prettify.css" rel="stylesheet" type="text/css"> 
+
+	<script src="../colorjs/prettify.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+		$(document).ready(function() 
+		{
+			$('#main-title').load('content.html h1#main-title', function() 
+				{
+					//alert('load successful');
+				});
+
+			$('#hidden-content').load('content.html', function(response,status,xhr) 
+				{
+					$("#hidden-content > div").each(function() 
+					{
+						sectionId = $(this).attr('id');
+						headerId = $("#" + sectionId + " h2").html();
+							
+						$("#head-nav ul").append("<li> <a href=\'#\' id=\'"+ sectionId + "-menu\'>" + headerId + "</a> </li>");
+					});
+					$("#left-content").html($("#hidden-content div:first").html());
+					$("#head-nav ul > li a").click(function() 
+					{
+						menuId = $(this).attr('id'); // this points to the current element
+						sectionId = menuId.replace(/-menu/i, "");
+						sectionContent = $("#hidden-content div#" + sectionId).html();
+						$("#left-content").html(sectionContent);
+						prettyPrint();
+					});
+				});
+       });
+    </script>
+</head>
+
+<body><!--Google Tag Manager (noscript)--><!--End Google Tag Manager (noscript)--><!--Google Tag Manager (noscript)--><!--End Google Tag Manager (noscript)-->
+        <header id="site_head">
+                <div class="header_cont"> <!-- 960px header-->
+                        <!-- LOGO of the company-->
+                        <div id="logo">
+                        <h1> <a href="../index.html"> Problem Solving </a> </h1>
+                        </div>
+
+                        <div id="help-menu">
+                        <h1> <a href="http://virtual-labs.ac.in"> Virtual Labs </a> </h1>
+                        </div>
+                </div>
+                        <!-- Menu -->
+        </header>
+
+
+	<article id="main_content"> <!--960px limit -->
+		<header id="main-title">
+		</header>
+		<nav id="head-nav">
+		<ul>
+		</ul>
+		</nav>
+		<section id="hidden-content">
+		</section>		
+		<section id="left-content">
+		</section>
+
+					
+		<aside>
+			
+		</aside>
+
+		<footer class="bottom">
+		</footer>
+
+
+
+</article></body></html>
