@@ -1,0 +1,47 @@
+[
+{"question":"1. The execution of a loop typically starts with:",
+"answers":{
+            "a":"initialization statements",
+            "b":"Loop body",
+            "c":"test condition",
+            "d":"update statements"
+          },
+"correctAnswer":"a"},
+
+{"question":"2. The break statement is used to exit from:",
+"answers":{
+            "a":"an if statement",
+            "b":"a for loop",
+            "c":"a program",
+            "d":"the main( ) function"
+          },
+"correctAnswer":"b"}, 
+
+{"question":"3. A do-while loop is useful when we want that the statements within the loop must be executed",
+"answers":{
+            "a":"only once",
+            "b":"At Least Once",
+            "c":"More than once",
+            "d":"None of the above"
+          },
+"correctAnswer":"b"},
+
+{"question":"4. In what sequence the initialization, testing and execution of body is done in a do-while loop ",
+"answers":{
+            "a":"Initialization, execution of body, testing",
+            "b":"Execution of body, initialization, testing",
+            "c":"Initialization, testing, execution of body",
+            "d":"None of the above"
+          },
+"correctAnswer":"a"},
+
+{"question":"5. Which looping process checks the test condition at the end of the loop?",
+"answers":{
+            "a":"for",
+            "b":"while",
+            "c":"do-while",
+            "d":"No looping peocess check condition at the end"
+          },
+"correctAnswer":"c"}
+
+]
