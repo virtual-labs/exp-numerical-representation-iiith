@@ -48,6 +48,9 @@
       "unit-type": "task",
       "content-type": "assesment"
     }
-  ]
+  ],
+  "services": {
+    "compilerService": "https://svc-test.vlabs.ac.in/compiler/"
+  }
 }
 
