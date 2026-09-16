@@ -69,11 +69,11 @@ const problems = [
       "Blank 1: What should idx be initialized to?",
       "Blank 2: Find the position of word[i] in chars using strchr.",
       "Blank 3: Use the correct operator to add to idx.",
-      "For chars = 'abcde', word = 'bd', output is 18. For chars = 'abc', word = 'ac', output is 5.",
+      "For chars = 'abcde', word = 'bd', output is 10. For chars = 'abc', word = 'ac', output is 5.",
     ],
     compilerOutput: "Compiled successfully.",
     runtimeOutput:
-      "For chars = 'abcde', word = 'bd', output is 18. For chars = 'abc', word = 'ac', output is 5.",
+      "For chars = 'abcde', word = 'bd', output is 10. For chars = 'abc', word = 'ac', output is 5.",
   },
   {
     id: 3,
