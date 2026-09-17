@@ -1,0 +1,6 @@
+- To understand and apply the principles of binary (base-2) representation of numbers in computers.
+- To determine the minimum number of bits required to represent a given integer in binary.
+- To develop and analyze algorithms for converting decimal numbers to binary and vice versa.
+- To explore combinatorial enumeration and efficiently compute the lexicographical index of ordered subsets without generating all possibilities.
+- To strengthen algorithmic thinking and problem-solving skills through interactive, fill-in-the-blanks programming exercises.
+- To connect mathematical theory with practical programming tasks relevant to digital systems and computer science.
